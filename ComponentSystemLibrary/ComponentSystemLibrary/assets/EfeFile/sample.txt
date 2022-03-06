@@ -1,0 +1,8 @@
+name:sample
+spawnNum:1
+life:10
+vel:0,-1,0,
+scaleAnim_initScale:1,1,1,
+scaleAnim_finishScale:1,1,1,
+spawnPos:-10010
+spawnPosRange:1110

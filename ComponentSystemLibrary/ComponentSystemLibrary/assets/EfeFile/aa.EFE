@@ -1,0 +1,15 @@
+name:sample
+spawnNum:1
+life:2
+vel:0,-1,0,
+scaleAnim_initScale:1,1,1,
+scaleAnim_finishScale:1,1,1,
+spawnPos:-10,0,10
+spawnPosRange:5,5,6
+velRange:0,0,0
+speed:5
+rot:0,1,5.96046e-08
+gravity:0
+velFlgType:0
+InitColor:1,1,1,1
+EndColor:1,1,1,1

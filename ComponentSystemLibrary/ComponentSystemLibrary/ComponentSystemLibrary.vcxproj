@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7CC80ED0-AF0F-4993-A6FC-248F44276CEB}</ProjectGuid>
+    <RootNamespace>ComponentSystemLibrary</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\directxtex\include;C:\assimp\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\directxtex\lib\x64\debug;C:\assimp\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\directxtex\include;C:\assimp\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\directxtex\lib\x64\release;C:\assimp\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Component\AnimationComponent.cpp" />
+    <ClCompile Include="Component\BoxColliderComponent.cpp" />
+    <ClCompile Include="Component\CameraComponent.cpp" />
+    <ClCompile Include="Component\CircleColliderComponent.cpp" />
+    <ClCompile Include="Component\Collition.cpp" />
+    <ClCompile Include="Component\ComputeComponent.cpp" />
+    <ClCompile Include="Component\GameObject.cpp" />
+    <ClCompile Include="Component\ImGuiComponent.cpp" />
+    <ClCompile Include="Component\IRenderBase.cpp" />
+    <ClCompile Include="Component\ModelComponent.cpp" />
+    <ClCompile Include="Component\ModelRenderInstance.cpp" />
+    <ClCompile Include="Component\ParticleSystemComponent.cpp" />
+    <ClCompile Include="Component\PostEffectComponent.cpp" />
+    <ClCompile Include="Component\Quad2DMultiRenderComponent.cpp" />
+    <ClCompile Include="Component\Quad2DRenderComponent.cpp" />
+    <ClCompile Include="Component\QuadMautiRenderComponent.cpp" />
+    <ClCompile Include="Component\QuadRenderComponent.cpp" />
+    <ClCompile Include="Component\RigidbodyComponent.cpp" />
+    <ClCompile Include="Component\Scene.cpp" />
+    <ClCompile Include="Component\SceneManager.cpp" />
+    <ClCompile Include="Component\SphereColliderComponent.cpp" />
+    <ClCompile Include="Component\Transform.cpp" />
+    <ClCompile Include="DX11System\2dsystem.cpp" />
+    <ClCompile Include="DX11System\assimpscene.cpp" />
+    <ClCompile Include="DX11System\CDirectXGraphics.cpp" />
+    <ClCompile Include="DX11System\Controller.cpp" />
+    <ClCompile Include="DX11System\CWindow.cpp" />
+    <ClCompile Include="DX11System\CWindowCallback.cpp" />
+    <ClCompile Include="DX11System\DatFile.cpp" />
+    <ClCompile Include="DX11System\DatFileLoader.cpp" />
+    <ClCompile Include="DX11System\DDSTextureLoader.cpp" />
+    <ClCompile Include="DX11System\dx11mathutil.cpp" />
+    <ClCompile Include="DX11System\dx11util.cpp" />
+    <ClCompile Include="DX11System\ImageResource.cpp" />
+    <ClCompile Include="DX11System\ImageResourceManager.cpp" />
+    <ClCompile Include="DX11System\mesh.cpp" />
+    <ClCompile Include="DX11System\ModelData.cpp" />
+    <ClCompile Include="DX11System\DatResourceManager.cpp" />
+    <ClCompile Include="DX11System\ModelResourceManager.cpp" />
+    <ClCompile Include="DX11System\mystring.cpp" />
+    <ClCompile Include="DX11System\OpenFileDialog.cpp" />
+    <ClCompile Include="DX11System\PostEffectQuad.cpp" />
+    <ClCompile Include="DX11System\quad.cpp" />
+    <ClCompile Include="DX11System\quad2D.cpp" />
+    <ClCompile Include="DX11System\RandomClass.cpp" />
+    <ClCompile Include="DX11System\Shader.cpp" />
+    <ClCompile Include="DX11System\utftosjisconv.cpp" />
+    <ClCompile Include="DX11System\Vector.cpp" />
+    <ClCompile Include="DX11System\WICTextureLoader.cpp" />
+    <ClCompile Include="DX11System\XAudio2.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="GameObjects\MainCamera.cpp" />
+    <ClCompile Include="imGui\imgui.cpp" />
+    <ClCompile Include="imGui\imgui_draw.cpp" />
+    <ClCompile Include="imGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="imGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imGui\imgui_widgets.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="DX11System\Skydome.cpp" />
+    <ClCompile Include="DX11System\Time.cpp" />
+    <ClCompile Include="source\Buffer\ConstBuffer.cpp" />
+    <ClCompile Include="source\Buffer\StructuredBuffer.cpp" />
+    <ClCompile Include="source\Compute\ComputeManager.cpp" />
+    <ClCompile Include="source\Compute\SphereModel.cpp" />
+    <ClCompile Include="source\Compute\TestComputeObj.cpp" />
+    <ClCompile Include="source\Compute\WindowFileDealer.cpp" />
+    <ClCompile Include="source\drawaxis.cpp" />
+    <ClCompile Include="source\Frame\BoxFrame.cpp" />
+    <ClCompile Include="source\Map1_1Class.cpp" />
+    <ClCompile Include="source\Map\TileLine.cpp" />
+    <ClCompile Include="source\ObjectShape\Box.cpp" />
+    <ClCompile Include="source\ObjectShape\Cone.cpp" />
+    <ClCompile Include="source\ObjectShape\Sphere.cpp" />
+    <ClCompile Include="source\PostEffect\BloomPostEffect.cpp" />
+    <ClCompile Include="source\PostEffect\DirectGraphicsTexture.cpp" />
+    <ClCompile Include="source\PostEffect\PostEffectManager.cpp" />
+    <ClCompile Include="source\PostEffect\RenderTarget2D.cpp" />
+    <ClCompile Include="source\PostEffect\Shimmer.cpp" />
+    <ClCompile Include="source\PostEffect\ShimmerPostEffect.cpp" />
+    <ClCompile Include="source\UI\Arrow\ArrowUI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Component\AnimationComponent.h" />
+    <ClInclude Include="Component\BoxColliderComponent.h" />
+    <ClInclude Include="Component\CameraComponent.h" />
+    <ClInclude Include="Component\CircleColliderComponent.h" />
+    <ClInclude Include="Component\ColliderBase.h" />
+    <ClInclude Include="Component\Collision.h" />
+    <ClInclude Include="Component\ComponentBaseClass.h" />
+    <ClInclude Include="Component\ComputeComponent.h" />
+    <ClInclude Include="Component\GameObject.h" />
+    <ClInclude Include="Component\ImGuiComponent.h" />
+    <ClInclude Include="Component\IRenderBase.h" />
+    <ClInclude Include="Component\ModelComponent.h" />
+    <ClInclude Include="Component\ModelRenderInstance.h" />
+    <ClInclude Include="Component\ParticleSystemComponent.h" />
+    <ClInclude Include="Component\PostEffectComponent.h" />
+    <ClInclude Include="Component\Quad2DMultiRenderComponent.h" />
+    <ClInclude Include="Component\Quad2DRenderComponent.h" />
+    <ClInclude Include="Component\QuadMultiRenderComponent.h" />
+    <ClInclude Include="Component\QuadRenderComponent.h" />
+    <ClInclude Include="Component\RenderUtility.h" />
+    <ClInclude Include="Component\RigidbodyComponent.h" />
+    <ClInclude Include="Component\Scene.h" />
+    <ClInclude Include="Component\SceneManager.h" />
+    <ClInclude Include="Component\SphereColliderComponent.h" />
+    <ClInclude Include="Component\Transform.h" />
+    <ClInclude Include="ComputeDateHeader.h" />
+    <ClInclude Include="DX11System\2dsystem.h" />
+    <ClInclude Include="DX11System\assimpscene.h" />
+    <ClInclude Include="DX11System\CDirectInput.h" />
+    <ClInclude Include="DX11System\CDirectxGraphics.h" />
+    <ClInclude Include="DX11System\CLight.h" />
+    <ClInclude Include="DX11System\Controller.h" />
+    <ClInclude Include="DX11System\CWindow.h" />
+    <ClInclude Include="DX11System\CWindowCallback.h" />
+    <ClInclude Include="DX11System\DatFile.h" />
+    <ClInclude Include="DX11System\DatFileLoader.h" />
+    <ClInclude Include="DX11System\dx11mathutil.h" />
+    <ClInclude Include="DX11System\DX11Settransform.h" />
+    <ClInclude Include="DX11System\DX11util.h" />
+    <ClInclude Include="DX11System\ImageResource.h" />
+    <ClInclude Include="DX11System\ImageResourceManager.h" />
+    <ClInclude Include="DX11System\macro.h" />
+    <ClInclude Include="DX11System\Memory.h" />
+    <ClInclude Include="DX11System\Mesh.h" />
+    <ClInclude Include="DX11System\ModelData.h" />
+    <ClInclude Include="DX11System\DatResourceManager.h" />
+    <ClInclude Include="DX11System\ModelResourceManager.h" />
+    <ClInclude Include="DX11System\mystring.h" />
+    <ClInclude Include="DX11System\NonCopyable.h" />
+    <ClInclude Include="DX11System\OpenFileDialog.h" />
+    <ClInclude Include="DX11System\PostEffectQuad.h" />
+    <ClInclude Include="DX11System\quad.h" />
+    <ClInclude Include="DX11System\quad2D.h" />
+    <ClInclude Include="DX11System\RandomClass.h" />
+    <ClInclude Include="DX11System\Shader.h" />
+    <ClInclude Include="DX11System\shaderhashmap.h" />
+    <ClInclude Include="DX11System\utftosjisconv.h" />
+    <ClInclude Include="DX11System\Vector.h" />
+    <ClInclude Include="DX11System\vertexproto.h" />
+    <ClInclude Include="DX11System\XAudio2.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="GameObjects\MainCamera.h" />
+    <ClInclude Include="imGui\imconfig.h" />
+    <ClInclude Include="imGui\imgui.h" />
+    <ClInclude Include="imGui\imgui_impl_dx11.h" />
+    <ClInclude Include="imGui\imgui_impl_win32.h" />
+    <ClInclude Include="imGui\imgui_internal.h" />
+    <ClInclude Include="imGui\imstb_rectpack.h" />
+    <ClInclude Include="imGui\imstb_textedit.h" />
+    <ClInclude Include="imGui\imstb_truetype.h" />
+    <ClInclude Include="DX11System\Skydome.h" />
+    <ClInclude Include="source\Buffer\ConstBuffer.h" />
+    <ClInclude Include="source\Buffer\StructuredBuffer.h" />
+    <ClInclude Include="source\Compute\ComputeBitChanger.h" />
+    <ClInclude Include="source\Compute\ComputeDetail.h" />
+    <ClInclude Include="source\Compute\ComputeManager.h" />
+    <ClInclude Include="source\Compute\SomeSupportCompute.h" />
+    <ClInclude Include="source\Compute\SphereModel.h" />
+    <ClInclude Include="source\Compute\TestComputeObj.h" />
+    <ClInclude Include="source\Compute\WindowFileDealer.h" />
+    <ClInclude Include="source\drawaxis.h" />
+    <ClInclude Include="source\Frame\BoxFrame.h" />
+    <ClInclude Include="source\line.h" />
+    <ClInclude Include="source\Macro.h" />
+    <ClInclude Include="source\MainGameManager.h" />
+    <ClInclude Include="source\Map1_1Class.h" />
+    <ClInclude Include="source\Map\TileLine.h" />
+    <ClInclude Include="source\ObjectShape\Box.h" />
+    <ClInclude Include="source\ObjectShape\Cone.h" />
+    <ClInclude Include="source\ObjectShape\Sphere.h" />
+    <ClInclude Include="source\PostEffect\BloomPostEffect.h" />
+    <ClInclude Include="source\PostEffect\DirectGraphicsTexture.h" />
+    <ClInclude Include="source\PostEffect\PostEffectBase.h" />
+    <ClInclude Include="source\PostEffect\PostEffectManager.h" />
+    <ClInclude Include="source\PostEffect\RenderTarget2D.h" />
+    <ClInclude Include="source\PostEffect\Shimmer.h" />
+    <ClInclude Include="source\PostEffect\ShimmerPostEffect.h" />
+    <ClInclude Include="source\systemInclude.h" />
+    <ClInclude Include="source\UI\Arrow\ArrowUI.h" />
+    <ClInclude Include="systemInclude.h" />
+    <ClInclude Include="DX11System\Time.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

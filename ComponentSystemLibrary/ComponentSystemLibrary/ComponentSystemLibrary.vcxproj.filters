@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="component">
+      <UniqueIdentifier>{1dd0b758-cb14-4ea9-9c89-8877fb1e4a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component\Animation">
+      <UniqueIdentifier>{dd7e35f8-03a2-430f-a894-7a05aedfb8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component\Camera">
+      <UniqueIdentifier>{7f9d1f1d-e2c6-4f8d-abcd-897fb35a1bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component\Particle">
+      <UniqueIdentifier>{d33b47f3-56bf-44e5-b5c0-86e6f882b032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component\Scene">
+      <UniqueIdentifier>{bc6460e4-cd36-4762-98b3-a6077224a80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component\RigidBody">
+      <UniqueIdentifier>{05bb9b61-6892-42ca-80fb-95135ec99ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component\Collider">
+      <UniqueIdentifier>{d7897498-6c8a-4895-91a9-3f171c4e3eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{2062e425-b433-41e1-953a-1c8815e7e3d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\ImGui">
+      <UniqueIdentifier>{9896533f-cece-4491-9fb8-e1a7be4cc875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app_main">
+      <UniqueIdentifier>{2262103f-ab43-4a14-9a49-265377b44be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaderfile">
+      <UniqueIdentifier>{e68e06d1-6d2f-4a52-bdd2-89b961ed0f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component\ImGui">
+      <UniqueIdentifier>{4d52538a-c65a-46c2-940a-7da4e617dc73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Audio">
+      <UniqueIdentifier>{f99388fc-e501-4021-8a10-2b0fc2bbf1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Graphics">
+      <UniqueIdentifier>{4afc91c2-c61e-4468-a253-75e19dfc65f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Graphics\2d">
+      <UniqueIdentifier>{16f43ed4-19c0-4229-b3fa-831ab1adb180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Graphics\Assimpscene">
+      <UniqueIdentifier>{6cc732a9-aad8-4702-81bc-6d138ee6b90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Graphics\Light">
+      <UniqueIdentifier>{6176fe3b-25e0-4454-9851-790d96235071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Graphics\Model">
+      <UniqueIdentifier>{6bb574e5-17a1-473a-9747-5c71102aca2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Graphics\ResourceManager">
+      <UniqueIdentifier>{cd4a47f2-08db-4b7e-9cbd-268b12d52a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Graphics\Shader">
+      <UniqueIdentifier>{b6a762c7-7178-476b-b14a-3d68d979a1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Graphics\Transform">
+      <UniqueIdentifier>{4d0f7a79-5b08-41ea-b790-75b014041f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Graphics\Skydome">
+      <UniqueIdentifier>{bd775449-c272-4299-8cdb-14051339b6bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Graphics\Datfile">
+      <UniqueIdentifier>{23b08a24-a796-4b42-b62d-8eef13c88b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Input">
+      <UniqueIdentifier>{33e65d26-979a-4b39-a2bd-67732c9817ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Math">
+      <UniqueIdentifier>{7fdc7f0e-afc3-4a67-b8db-fd06075e6cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Util">
+      <UniqueIdentifier>{62fc7a27-63a1-4e98-8da1-8c8515dd37f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Window">
+      <UniqueIdentifier>{56bd22f1-95a9-4f39-9f3f-d93152dfdf67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component\Render">
+      <UniqueIdentifier>{652a98b0-f37d-403a-bbdf-1a15f819bace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component\Render\QuadRender">
+      <UniqueIdentifier>{31e28a1d-acb2-48f5-9e18-53ed97bb602f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component\Render\Model">
+      <UniqueIdentifier>{0fe71d88-9167-4039-bf65-f65c923fc717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawSupport">
+      <UniqueIdentifier>{63c06eda-74f1-4b21-95f6-15f141327cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawSupport\RenderTarget2D">
+      <UniqueIdentifier>{940d7172-0fee-4196-84a1-664a88b9fd89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawSupport\Model">
+      <UniqueIdentifier>{b6ebae20-419b-47a8-8479-da0f46297ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawSupport\line">
+      <UniqueIdentifier>{ca15821d-d9bd-47a0-a061-cdd8cca82f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin">
+      <UniqueIdentifier>{0b84749b-e747-4a4f-8bc8-8d125e57703c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\Scenes">
+      <UniqueIdentifier>{3cb57e6d-aed2-4abb-b154-7b7044a1b492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\UI">
+      <UniqueIdentifier>{3dbc5e60-4f16-4cff-a837-1d3c5083880f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\GameObjects">
+      <UniqueIdentifier>{784d95a3-8680-497c-855c-7f57ca19a36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\GameObjects\Scene">
+      <UniqueIdentifier>{d210e8c3-baca-49ef-8148-86412f226107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\GameObjects\PostEffect">
+      <UniqueIdentifier>{4e10e7d2-6278-469e-95b6-895a4b8188f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\GameObjects\Obj">
+      <UniqueIdentifier>{5c5903f1-5a98-4892-b4a6-4faf4795c1c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\GameObjects\Buffer">
+      <UniqueIdentifier>{f9898822-43b5-4849-9cc7-25a54ef942dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\GameObjects\ObjShape">
+      <UniqueIdentifier>{f0e75599-2ee4-44ec-9689-e065c4ab0127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\GameObjects\Map">
+      <UniqueIdentifier>{1417b79d-4c27-40f8-9903-02ed08b1dba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\GameObjects\Camera">
+      <UniqueIdentifier>{7686e10e-1f8a-4faf-81a2-ad806a6e42a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\GameObjects\Compute">
+      <UniqueIdentifier>{cbe1d15b-232c-4e2c-a5ef-4f46c3bb513d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\GameObjects\Arrow">
+      <UniqueIdentifier>{c46423aa-f46d-4d3e-964c-4ebac73dd8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\System">
+      <UniqueIdentifier>{e8537660-8503-4528-b271-dd0f4dedb347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\PostEffect">
+      <UniqueIdentifier>{13cd9330-2e52-4e17-bdac-f158b65acf3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\PostEffect\Bloom">
+      <UniqueIdentifier>{1705cc1a-08e8-4a15-b2af-fa357819167f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="origin\PostEffect\Frame">
+      <UniqueIdentifier>{df8c5d4b-fb92-42e0-b9eb-a0c8d12c8723}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>app_main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>app_main</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\GameObject.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\AnimationComponent.cpp">
+      <Filter>component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\BoxColliderComponent.cpp">
+      <Filter>component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\CircleColliderComponent.cpp">
+      <Filter>component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\CameraComponent.cpp">
+      <Filter>component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Collition.cpp">
+      <Filter>component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ModelComponent.cpp">
+      <Filter>component\Render\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\SphereColliderComponent.cpp">
+      <Filter>component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ParticleSystemComponent.cpp">
+      <Filter>component\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\RigidbodyComponent.cpp">
+      <Filter>component\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Scene.cpp">
+      <Filter>component\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\SceneManager.cpp">
+      <Filter>component\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>app_main</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\XAudio2.cpp">
+      <Filter>system\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\assimpscene.cpp">
+      <Filter>system\Graphics\Assimpscene</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\dx11mathutil.cpp">
+      <Filter>system\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui.cpp">
+      <Filter>system\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_draw.cpp">
+      <Filter>system\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_impl_dx11.cpp">
+      <Filter>system\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_impl_win32.cpp">
+      <Filter>system\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imGui\imgui_widgets.cpp">
+      <Filter>system\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\DatFile.cpp">
+      <Filter>system\Graphics\Datfile</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\DatFileLoader.cpp">
+      <Filter>system\Graphics\Datfile</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\Shader.cpp">
+      <Filter>system\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\quad.cpp">
+      <Filter>system\Graphics\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\2dsystem.cpp">
+      <Filter>system\Graphics\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\ModelData.cpp">
+      <Filter>system\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\CDirectXGraphics.cpp">
+      <Filter>system\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\CWindow.cpp">
+      <Filter>system\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\CWindowCallback.cpp">
+      <Filter>system\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\dx11util.cpp">
+      <Filter>system\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\DDSTextureLoader.cpp">
+      <Filter>system\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\utftosjisconv.cpp">
+      <Filter>system\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\Vector.cpp">
+      <Filter>system\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ImGuiComponent.cpp">
+      <Filter>component\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\WICTextureLoader.cpp">
+      <Filter>system\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\ImageResourceManager.cpp">
+      <Filter>system\Graphics\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\RandomClass.cpp">
+      <Filter>system\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\DatResourceManager.cpp">
+      <Filter>system\Graphics\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\ModelResourceManager.cpp">
+      <Filter>system\Graphics\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\ImageResource.cpp">
+      <Filter>system\Graphics\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\mesh.cpp">
+      <Filter>system\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\Skydome.cpp">
+      <Filter>system\Graphics\Skydome</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\Time.cpp">
+      <Filter>system\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\QuadRenderComponent.cpp">
+      <Filter>component\Render\QuadRender</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Quad2DRenderComponent.cpp">
+      <Filter>component\Render\QuadRender</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\quad2D.cpp">
+      <Filter>system\Graphics\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Transform.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Compute\TestComputeObj.cpp">
+      <Filter>origin\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\PostEffectComponent.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ComputeComponent.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\mystring.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Map1_1Class.cpp">
+      <Filter>origin\GameObjects\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PostEffect\PostEffectManager.cpp">
+      <Filter>origin\GameObjects\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PostEffect\Shimmer.cpp">
+      <Filter>origin\GameObjects\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectShape\Box.cpp">
+      <Filter>origin\GameObjects\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Buffer\ConstBuffer.cpp">
+      <Filter>origin\GameObjects\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectShape\Sphere.cpp">
+      <Filter>origin\GameObjects\ObjShape</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectShape\Cone.cpp">
+      <Filter>origin\GameObjects\ObjShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\QuadMautiRenderComponent.cpp">
+      <Filter>component\Render\QuadRender</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Quad2DMultiRenderComponent.cpp">
+      <Filter>component\Render\QuadRender</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\Controller.cpp">
+      <Filter>system\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\IRenderBase.cpp">
+      <Filter>component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Map\TileLine.cpp">
+      <Filter>origin\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Buffer\StructuredBuffer.cpp">
+      <Filter>origin\GameObjects\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\OpenFileDialog.cpp">
+      <Filter>origin\System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PostEffect\RenderTarget2D.cpp">
+      <Filter>drawSupport\RenderTarget2D</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PostEffect\BloomPostEffect.cpp">
+      <Filter>origin\PostEffect\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PostEffect\ShimmerPostEffect.cpp">
+      <Filter>origin\GameObjects\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Frame\BoxFrame.cpp">
+      <Filter>origin\PostEffect\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PostEffect\DirectGraphicsTexture.cpp">
+      <Filter>drawSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\MainCamera.cpp">
+      <Filter>origin\GameObjects\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Compute\ComputeManager.cpp">
+      <Filter>origin\GameObjects\Compute</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Compute\SphereModel.cpp">
+      <Filter>drawSupport\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ModelRenderInstance.cpp">
+      <Filter>drawSupport\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UI\Arrow\ArrowUI.cpp">
+      <Filter>origin\GameObjects\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Compute\WindowFileDealer.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\drawaxis.cpp">
+      <Filter>drawSupport\line</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11System\PostEffectQuad.cpp">
+      <Filter>system\Graphics\2d</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>app_main</Filter>
+    </ClInclude>
+    <ClInclude Include="systemInclude.h">
+      <Filter>app_main</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\GameObject.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\AnimationComponent.h">
+      <Filter>component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\BoxColliderComponent.h">
+      <Filter>component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\CircleColliderComponent.h">
+      <Filter>component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\CameraComponent.h">
+      <Filter>component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ColliderBase.h">
+      <Filter>component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Collision.h">
+      <Filter>component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ComponentBaseClass.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ModelComponent.h">
+      <Filter>component\Render\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\SphereColliderComponent.h">
+      <Filter>component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ParticleSystemComponent.h">
+      <Filter>component\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\RigidbodyComponent.h">
+      <Filter>component\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Scene.h">
+      <Filter>component\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\SceneManager.h">
+      <Filter>component\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>app_main</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\XAudio2.h">
+      <Filter>system\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\assimpscene.h">
+      <Filter>system\Graphics\Assimpscene</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\dx11mathutil.h">
+      <Filter>system\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\Vector.h">
+      <Filter>system\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\CDirectInput.h">
+      <Filter>system\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imconfig.h">
+      <Filter>system\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui.h">
+      <Filter>system\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_impl_dx11.h">
+      <Filter>system\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_impl_win32.h">
+      <Filter>system\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imgui_internal.h">
+      <Filter>system\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_rectpack.h">
+      <Filter>system\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_textedit.h">
+      <Filter>system\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imGui\imstb_truetype.h">
+      <Filter>system\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\DatFile.h">
+      <Filter>system\Graphics\Datfile</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\DatFileLoader.h">
+      <Filter>system\Graphics\Datfile</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\CLight.h">
+      <Filter>system\Graphics\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\Shader.h">
+      <Filter>system\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\shaderhashmap.h">
+      <Filter>system\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\quad.h">
+      <Filter>system\Graphics\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\2dsystem.h">
+      <Filter>system\Graphics\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\vertexproto.h">
+      <Filter>system\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\ModelData.h">
+      <Filter>system\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\CDirectxGraphics.h">
+      <Filter>system\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\CWindow.h">
+      <Filter>system\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\CWindowCallback.h">
+      <Filter>system\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\DX11Settransform.h">
+      <Filter>system\Graphics\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\DX11util.h">
+      <Filter>system\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\macro.h">
+      <Filter>system\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\Memory.h">
+      <Filter>system\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\NonCopyable.h">
+      <Filter>system\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\utftosjisconv.h">
+      <Filter>system\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ImGuiComponent.h">
+      <Filter>component\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\ImageResourceManager.h">
+      <Filter>system\Graphics\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\RandomClass.h">
+      <Filter>system\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\DatResourceManager.h">
+      <Filter>system\Graphics\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\ModelResourceManager.h">
+      <Filter>system\Graphics\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\ImageResource.h">
+      <Filter>system\Graphics\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Transform.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\Mesh.h">
+      <Filter>system\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\Skydome.h">
+      <Filter>system\Graphics\Skydome</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\Time.h">
+      <Filter>system\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\QuadRenderComponent.h">
+      <Filter>component\Render\QuadRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Quad2DRenderComponent.h">
+      <Filter>component\Render\QuadRender</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\quad2D.h">
+      <Filter>system\Graphics\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="source\systemInclude.h">
+      <Filter>origin\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Macro.h">
+      <Filter>origin\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\PostEffectComponent.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ComputeComponent.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\mystring.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Map1_1Class.h">
+      <Filter>origin\GameObjects\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PostEffect\PostEffectManager.h">
+      <Filter>origin\GameObjects\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PostEffect\Shimmer.h">
+      <Filter>origin\GameObjects\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PostEffect\DirectGraphicsTexture.h">
+      <Filter>origin\GameObjects\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjectShape\Box.h">
+      <Filter>origin\GameObjects\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjectShape\Cone.h">
+      <Filter>origin\GameObjects\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjectShape\Sphere.h">
+      <Filter>origin\GameObjects\ObjShape</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\QuadMultiRenderComponent.h">
+      <Filter>component\Render\QuadRender</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MainGameManager.h">
+      <Filter>origin\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Quad2DMultiRenderComponent.h">
+      <Filter>component\Render\QuadRender</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\Controller.h">
+      <Filter>system\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\IRenderBase.h">
+      <Filter>component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\RenderUtility.h">
+      <Filter>component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Compute\TestComputeObj.h">
+      <Filter>origin\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Buffer\StructuredBuffer.h">
+      <Filter>origin\GameObjects\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\OpenFileDialog.h">
+      <Filter>origin\System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Map\TileLine.h">
+      <Filter>origin\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Buffer\ConstBuffer.h">
+      <Filter>origin\GameObjects\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PostEffect\RenderTarget2D.h">
+      <Filter>drawSupport\RenderTarget2D</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PostEffect\BloomPostEffect.h">
+      <Filter>origin\PostEffect\Bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PostEffect\ShimmerPostEffect.h">
+      <Filter>origin\GameObjects\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Frame\BoxFrame.h">
+      <Filter>origin\PostEffect\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\MainCamera.h">
+      <Filter>origin\GameObjects\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Compute\ComputeManager.h">
+      <Filter>origin\GameObjects\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Compute\ComputeBitChanger.h">
+      <Filter>origin\GameObjects\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputeDateHeader.h">
+      <Filter>origin\GameObjects\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Compute\ComputeDetail.h">
+      <Filter>origin\GameObjects\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PostEffect\PostEffectBase.h">
+      <Filter>origin\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Compute\SphereModel.h">
+      <Filter>drawSupport\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ModelRenderInstance.h">
+      <Filter>drawSupport\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="source\UI\Arrow\ArrowUI.h">
+      <Filter>origin\GameObjects\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Compute\WindowFileDealer.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Compute\SomeSupportCompute.h">
+      <Filter>origin\GameObjects\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="source\line.h">
+      <Filter>drawSupport\line</Filter>
+    </ClInclude>
+    <ClInclude Include="source\drawaxis.h">
+      <Filter>drawSupport\line</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11System\PostEffectQuad.h">
+      <Filter>system\Graphics\2d</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
